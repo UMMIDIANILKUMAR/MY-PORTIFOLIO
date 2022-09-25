@@ -292,8 +292,17 @@ h6 {
 @media (min-width: 992px) {
   #hero {
     padding-left: 160px;
+    
   }
 }
+@media (max-width: 1000px) {
+  #hero {
+ 
+    background: none;
+    background-color: whitesmoke;
+  }
+}
+
 
 #hero:before {
   content: "";
